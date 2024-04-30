@@ -1,0 +1,49 @@
+body {
+    background: rgb(63, 81, 138);
+    font-size: 1.25em;
+    color: #65ff6d;
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    margin: 40px;
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.tabs>ul {
+    padding: 0;
+    text-align: center;
+}
+
+.tabs .trigger {
+    list-style-type: none;
+    background: #22552b;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.tabs .trigger.active {
+    background: #65ff6d;
+    color: white;
+}
+
+.tabs .content {
+    background: #22552b;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+    color: black;
+}
+
+.tabs .content.active {
+    display: block;
+}
